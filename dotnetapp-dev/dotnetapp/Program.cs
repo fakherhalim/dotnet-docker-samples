@@ -7,7 +7,7 @@ public static class Program
 {
   public static void Main(string[] args) 
   {
-        string message = "Dotnet-bot: Welcome to using .NET Core!";
+        string message = "Dotnet-bot: Welcome to using .NET Core! I am Fakher Halim";
           
         if (args.Length > 0) 
         {
@@ -19,7 +19,7 @@ public static class Program
         WriteLine("**Environment**");
         WriteLine($"Platform: .NET Core 2.0");
         WriteLine($"OS: {RuntimeInformation.OSDescription}");
-        WriteLine();
+        WriteLine("Thanks from Fakher Halim");
   }
 
   public static string GetBot(string message) 
